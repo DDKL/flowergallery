@@ -47,21 +47,21 @@ function initializeEvents() {
   thumbnails.forEach(addThumbClickHandler);
 }
 
-function randomizeOtter() {
+function randomizeFlower() {
   var rand = Math.round(Math.random() * 10) % 5;
   var thumbnails = getThumbnailsArray(0);
   var randomImage = thumbnails[rand];
   randomImage.setAttribute('data-image-url', 'https://cdn.pixabay.com/photo/2015/12/23/22/24/decoration-1106219_960_720.png');
 }
 
-function resetOtterList(mode) {
+function resetFlowerList(mode) {
   var originalThumbnails = getThumbnailsArray(1);
   var currentThumbnails = getThumbnailsArray(0);
   currentThumbnails.forEach(function(thumb, i) {
     thumb.setAttribute('data-image-url',originalThumbnails[i].getAttribute("src"));
   });
   if (mode) {
-    randomizeOtter();
+    randomizeFlower();
   }
 }
 
