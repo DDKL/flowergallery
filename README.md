@@ -1,5 +1,5 @@
-Project title: The Alice Garden
-Project client: Alice, floral designer, volunteer, instructor
+Project title: The Alice Garden<br>
+Project client: Alice, floral designer, volunteer, instructor<br>
 Project description: a minimal and pure photo galllery that is mobile-friendly and allows simple additions of photos, descriptions, and titles. 
 
 <table>
